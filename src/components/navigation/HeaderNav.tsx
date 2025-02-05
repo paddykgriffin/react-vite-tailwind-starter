@@ -3,10 +3,10 @@ import { primaryMenuLinks } from "../navigation/HeaderMenuLinks";
 
 const HeaderNav = () => {
   return (
-    <div className="text-white gap-4 flex">
+    <div className="gap-4 flex text-gray-500 ">
       {primaryMenuLinks.map((item) => (
         <NavLink
-          className="text-white"
+          className="text-gray-800 dark:text-white"
           to={item.path}
           key={item.title}
           style={{

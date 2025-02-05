@@ -29,3 +29,4 @@ Simple starter application using React, Vite (for bundling), Typescript and Tail
 - Typescript
 - eslint
 - Prettier
+- TailwindCSS
