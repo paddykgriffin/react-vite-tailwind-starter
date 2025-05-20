@@ -1,7 +1,7 @@
-import Footer from '@/components/layout/Footer/Footer';
-import Header from '@/components/layout/Header/Header';
-import { useEffect } from 'react';
-import type React from 'react';
+import Footer from "@/components/layout/Footer";
+import Header from "@/components/layout/Header";
+import { useEffect } from "react";
+import type React from "react";
 
 interface LayoutProps {
   children: React.ReactNode;

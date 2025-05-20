@@ -1,7 +1,7 @@
-import HeaderNav from "../../navigation/HeaderNav";
+import HeaderNav from "../navigation/HeaderNav";
 import { Container } from "@/components/layout/Container/Container";
 import { ModeToggle } from "./ModeToggle";
-import SidebarNav from "./SidebarNav";
+import SidebarNav from "@/components/navigation/SidebarNav";
 import SiteLogo from "@/components/common/Logo/Logo";
 
 const Header = () => {
@@ -15,7 +15,7 @@ const Header = () => {
           <HeaderNav />
           <ModeToggle />
         </div>
-        <div className="block xl:hidden">
+        <div className="">
           <SidebarNav />
         </div>
       </Container>

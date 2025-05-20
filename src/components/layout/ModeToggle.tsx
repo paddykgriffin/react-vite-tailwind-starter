@@ -21,7 +21,9 @@ export function ModeToggle() {
       <Icon
         icon="line-md:moon"
         className={`size-6 transition-all ${
-          currentTheme === "dark" ? "-rotate-90 scale-0" : "-rotate-0 scale-100"
+          currentTheme === "dark"
+            ? "-rotate-90 scale-0"
+            : "-rotate-0 scale-100 text-white"
         }`}
       />
       <Icon

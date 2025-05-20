@@ -6,7 +6,7 @@ const siteConfig: SiteConfig = {
   theme: {
     color: {
       primary: {
-        light: '#D8D8D8',
+        light: '#DA3E52',
         dark: '#3446eb',
       },
     },
